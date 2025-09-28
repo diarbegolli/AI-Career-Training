@@ -1,36 +1,58 @@
-# AI-Career
+# AI-Career Training 🚀  
 
-- ✅ Day 1 – Python Basics  
-✅ Set up Colab and GitHub  
-✅ Finished freeCodeCamp Python course (1.5 hrs)  
-✅ Completed Kaggle: Intro to Python + Data Types  
-✅ Uploaded notebook
+This repository documents my structured journey toward becoming an AI/ML Engineer.  
+It contains hands-on notebooks covering Python fundamentals, Pandas for data analysis, advanced transformations, and end-to-end projects.  
 
-✅ Day 2 – Python Fundamentals & Tools Setup
-Set up coding environment with Google Colab and GitHub
-Learned core Python syntax: variables, conditionals, loops, functions, lists, dictionaries
-Completed interactive practice on Kaggle to reinforce basics
-Uploaded first Python notebooks to GitHub to track progress
+The repo is organized into **modules**, each building on the previous one, moving from basics → advanced analytics → projects.  
 
-- ✅ Day 3 - Quiz App Project
-- Built a Python quiz game using dictionaries, loops, functions, and input handling
-- Added file saving and score history feature using `quiz_scores.txt`
-- Learned: File I/O, error handling, formatting, and function structure
+---
 
-- ✅ Day 4 – Intermediate Python & Titanic Dataset Intro
-Learned how to load and inspect datasets using pandas
-Explored the Titanic dataset: column names, data types, basic stats
-Practiced filtering rows and selecting columns using .loc, .iloc, and boolean conditions
-Built confidence using real-world datasets for analysis
+## 📚 Learning Roadmap  
 
-✅ Day 5 – Data Cleaning & Group Analysis with Pandas
-Handled missing data using .isnull() and .dropna()
-Used groupby() and filtering to analyze survival patterns
-Explored data based on gender, class, and age
-Answered real questions with pandas code (e.g. survival rate by class, by gender, etc.)
+### 🟢 Module 1: Python Foundations (`python_basics/`)  
+- Python syntax essentials: variables, conditionals, loops, functions  
+- Data structures: lists, dictionaries, sets, tuples  
+- File I/O, error handling, formatting  
+- **Mini Project:** Quiz App with score tracking  
 
-✅ Day 6 – Data Visualization with Seaborn & Matplotlib
-Introduced seaborn and matplotlib for visual storytelling
-Created bar charts, histograms, and KDE plots to visualize Titanic survival patterns
-Compared survival across age, gender, and fare visually
-Built charts that help extract insights from the data clearly and efficiently
+### 🟢 Module 2: Data Wrangling with Pandas (`pandas_fundamentals/`)  
+- Loading & inspecting datasets (`.read_csv`, `.info`, `.describe`)  
+- Filtering rows & selecting columns (`.loc`, `.iloc`, boolean masks)  
+- Handling missing values (`.isnull`, `.dropna`, `.fillna`)  
+- Sorting, ranking, and aggregation with `.groupby()`  
+- **Case Study:** Titanic dataset (survival by gender, class, and age)  
+
+### 🟢 Module 3: Advanced Pandas (`pandas_advanced/`)  
+- Reshaping data: `pivot`, `pivot_table`, `melt`  
+- Long vs. wide formats (`stack`, `unstack`)  
+- Rolling averages & moving form trackers (`.rolling`, `.transform`)  
+- Lag, diff, and percentage change (`.shift`, `.diff`, `.pct_change`)  
+- Points systems and custom ranking logic  
+- Weighted points with stage multipliers (Group, Quarter, Semi, Final)  
+- **Champions League Analysis:**  
+  - Standings tables with GD, points, rank  
+  - Win streaks & rolling averages  
+  - Top scorers with `explode` + `groupby`  
+  - Opponent matrices (stack vs. unstack)  
+
+### 🟢 Module 4: Projects (`projects/`)  
+- **Titanic Analysis:** Pandas + visualization for survival analysis  
+- **Champions League Project:** Full pipeline with standings, scorers, weighted points  
+- **Retail Pipeline:** AOV (Average Order Value) + top-k analysis  
+
+### 🟢 Module 5: Visualization (in progress)  
+- Seaborn & Matplotlib for storytelling  
+- Bar charts, histograms, KDE plots  
+- Comparative charts: survival by class, gender, age  
+- Champions League dashboard (standings + scorers visualization)  
+
+---
+
+## 🏆 Key Skills Learned  
+- **Python:** functions, loops, dictionaries, file handling  
+- **Pandas:** groupby, pivot/melt, apply, rolling, transform, merge, crosstab  
+- **Data Wrangling:** missing data, normalization, ranking, weighted metrics  
+- **Visualization:** Seaborn & Matplotlib (in progress)  
+- **GitHub Workflow:** version control, structured repo, consistent commits  
+
+---
